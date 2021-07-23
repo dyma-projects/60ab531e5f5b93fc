@@ -14,9 +14,7 @@ export class AddUserComponent implements OnInit {
     private userService: UserService
   ) {}
 
-  ngOnInit() {
-    this.userService.users.push(this.userService.users$.value[0]);
-  }
+  ngOnInit() {}
 
   addUser() {
     const username = this.el.nativeElement.value;

@@ -26,6 +26,5 @@ export class UserListComponent implements OnInit, OnDestroy {
         console.log("users from list: " + users);
       })
     );
-    this.userService.users = [];
   }
 }
